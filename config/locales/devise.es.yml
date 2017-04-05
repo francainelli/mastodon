@@ -6,15 +6,15 @@ es:
       send_instructions: Recibirá un correo electrónico con instrucciones sobre cómo confirmar su dirección de correo en pocos minutos.
       send_paranoid_instructions: Si su dirección de correo electrónico existe en nuesta base de datos, recibirá un correo electrónico con instrucciones sobre cómo confirmar su dirección de correo en pocos minutos.
     failure:
-      already_authenticated: Usted ya está registrado.
+      already_authenticated: Ya está registrado.
       inactive: Su cuenta todavía no está activa.
       invalid: Inválido %{authentication_keys} o contraseña.
       last_attempt: Tiene un intento más antes de que su cuenta sea bloqueada.
       locked: su cuenta está bloqueada.
       not_found_in_database: Inválido %{authentication_keys} o contraseña.
-      timeout: su sesión ha expirado. Por favor inicie sesión de nuevo para continuar.
-      unauthenticated: Necesita iniciar sesión o registrarse antes de continuar.
-      unconfirmed: Tiene que confirmar su correo electrónico antes de continuar.
+      timeout: Su sesión ha expirado. Por favor inicie sesión nuevamente para continuar.
+      unauthenticated: Debe iniciar sesión o registrarse antes de continuar.
+      unconfirmed: Debe confirmar su correo electrónico antes de continuar.
     mailer:
       confirmation_instructions:
         subject: 'Mastodon: Instrucciones de confirmación'
@@ -31,7 +31,7 @@ es:
       no_token: No puede acceder a esta página sin provenir desde el correo de reinicio de contraseña. Si viene desde el correo de reinicio de contraseña, por favor asegúrese que está utilizando la dirección completa proporcionada.
       send_instructions: Recibirá un correo electrónico con instrucciones sobre cómo reiniciar su contraseña en pocos minutos.
       send_paranoid_instructions: Si su correo electrónico existe en nuestra base de datos, recibirá un enlace de recuperación de contraseña en su dirección de correo en pocos minutos.
-      updated: Su contraseña ha sido cambiada con éxito. Ahora ya está registrado.
+      updated: Su contraseña ha sido cambiada.Se encuentra registrado con éxito.
       updated_not_active: Su contraseña ha sido cambiada con éxito.
     registrations:
       destroyed: ¡Adios! Su cuenta ha sido cancelada con éxito. Esperamos verle pronto de nuevo.
@@ -51,7 +51,7 @@ es:
       unlocked: Su cuenta ha sido desbloqueada con éxito. Por favor inicie sesión para continuar.
   errors:
     messages:
-      already_confirmed: ya fue confirmado, por favor intente iniciar sesión
+      already_confirmed: ya fue confirmado, por favor intente iniciar sesión nuevamente
       confirmation_period_expired: necesita ser confirmado dentro de %{period}, por favor pida una nueva
       expired: ha expirado, por favor pida una nueva
       not_found: no encontrado
