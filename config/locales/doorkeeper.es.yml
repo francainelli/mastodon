@@ -19,7 +19,7 @@ es:
       buttons:
         authorize: Autorizar
         cancel: Cancelar
-        destroy: Destruir
+        destroy: Eliminar
         edit: Editar
         submit: Enviar
       confirmations:
